@@ -1,0 +1,5 @@
+import pandas as pd
+
+def getDataframeSize(players: pd.DataFrame) -> List[int]:
+    l_shape = list(players.shape)
+    return l_shape
